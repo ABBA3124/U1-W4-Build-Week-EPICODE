@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings-Test</title>
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/Settings-Test.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="assets/img/epicode_logo.png" alt="logo" />
+      </div>
+    </header>
+    <main>
+      <table>
+        <div>
+          <h1 class="titoli">Seleziona Modalità di Test</h1>
+        </div>
+        <div>
+          <h2 class="titoli">Seleziona la quantità di domande</h2>
+        </div>
+        <div class="bottoni bottoni1">
+          <button onclick="selectButton(this); checkStartButton()">10</button>
+          <button onclick="selectButton(this); checkStartButton()">20</button>
+          <button onclick="selectButton(this); checkStartButton()">30</button>
+        </div>
+        <div>
+          <h2>Seleziona la difficoltà</h2>
+        </div>
+        <div class="bottoni bottoni2">
+          <button onclick="selectButton(this); checkStartButton()">Easy</button>
+          <button onclick="selectButton(this); checkStartButton()">
+            Medium
+          </button>
+          <button onclick="selectButton(this); checkStartButton()">Hard</button>
+          <button onclick="selectButton(this); checkStartButton()">Mix</button>
+        </div>
+        <div class="start">
+          <button class="startbutton" onclick="startTest()" disabled>
+            Start
+          </button>
+        </div>
+      </table>
+    </main>
+    <script src="/java/Settings-Test.js"></script>
+  </body>
+</html>

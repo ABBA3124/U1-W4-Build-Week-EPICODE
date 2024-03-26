@@ -1,0 +1,105 @@
+main {
+  margin-top: 150px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+.titoli {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+main div h1 {
+  font-size: 130px;
+  line-height: 0.65;
+}
+strong {
+  font-weight: bold;
+}
+/* Article */
+main article {
+  margin-top: 80px;
+}
+main article h2 {
+  font-size: 48px;
+  font-weight: bold;
+  background: linear-gradient(to right, #d20094, #900080);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 20px;
+}
+main article p {
+  font-size: 27px;
+  margin-bottom: 50px;
+}
+.lista {
+  margin-left: 40px;
+  font-size: 20px;
+}
+.lista ul li {
+  font-size: 25px;
+  padding: 7px;
+}
+ul {
+  list-style-type: disc;
+}
+/* Label e Checkbox */
+.label {
+  font-size: 22px;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 170px;
+  cursor: pointer;
+}
+.checkbox {
+  display: none;
+}
+.label .custom-checkbox {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 3px solid #ffffff; /* Imposta il bordo bianco */
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.label .checkbox:checked + .custom-checkbox {
+  background-color: #000000;
+}
+.label .checkbox:checked + .custom-checkbox::after {
+  content: "\2713";
+  display: block;
+  text-align: center;
+  line-height: 20px;
+  font-size: 24px;
+  color: #ffffff;
+}
+/* Bottone */
+.bottone {
+  margin-left: 350px;
+  width: 350px;
+  height: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 40px;
+  background-color: #00ffff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 60px #0ae3eb;
+}
+.bottone:hover {
+  background-color: #19d4d4;
+}
+/* Aggiunte per la gestione della visibilità del bottone */
+.bottone-hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.bottone-visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}

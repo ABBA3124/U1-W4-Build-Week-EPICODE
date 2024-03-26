@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome page</title>
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="assets/img/epicode_logo.png" alt="logo" />
+      </div>
+    </header>
+    <main>
+      <div>
+        <h1 class="titoli">
+          Welcome to <br />
+          <strong>your exam</strong>
+        </h1>
+      </div>
+      <article>
+        <h2 class="titoli">Instructions</h2>
+        <p>
+          We don't expect most engineers to know the answers to all of these<br />
+          questions, so don't worry if you're unsure of a few of them.
+        </p>
+        <div class="lista">
+          <ul>
+            <li>
+              Each question is <strong>timed</strong> and can only be
+              <strong>answered once.</strong>
+            </li>
+            <li>
+              Changing browser tab or opening other windows will
+              <strong>invalidate the question.</strong>
+            </li>
+            <li>This exam will take approx. <strong>0-5 minutes.</strong></li>
+          </ul>
+        </div>
+      </article>
+      <label class="label">
+        <input class="checkbox" type="checkbox" name="agree" value="yes" />
+        <span class="custom-checkbox"></span>
+        <p>I promise to answer myself without help from anyone</p>
+        <input class="bottone bottone-hidden" type="button" value="Proceed" />
+      </label>
+    </main>
+    <script src="java/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap");
+
+body {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+h1,
+h2,
+h3 {
+  font-family: "Outfit", sans-serif;
+}
+
+header,
+main {
+  margin-block: 4em;
+  margin-inline: 8em;
+}
+
+header div img {
+  width: 15%;
+  height: auto;
+  display: block;
+}
+.grafic {
+  border-radius: 50%;
+  width: 22rem;
+  height: 22rem;
+  mask-image: radial-gradient(circle at center, transparent 120px, white 61px);
+  position: relative;
+  top: -229px;
+  left: -5px;
+}
+.resultTitolo h1 {
+  font-size: 100px;
+  font-weight: 600;
+}
+.resultTitolo h2 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+.contenutoTuttoIlResult {
+  margin-top: 70px;
+  display: inline-flex;
+}
+.contenutoTuttoIlResult .risultatiCorretti {
+  margin-right: 100px;
+}
+.contenutoTuttoIlResult .risultatiSbagliati {
+  margin-left: 100px;
+}
+.totSuTot {
+  margin: 0em;
+}
+.testoInternoGrafico {
+  display: inline-block;
+  height: 137px;
+  position: relative;
+  top: 79px;
+  left: 4px;
+}
+
+.testoInternoGrafico h3,
+h4 {
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+.testoInternoGrafico h4 {
+  margin-bottom: 24px;
+  color: #0ae3eb;
+}
+.testoInternoGrafico h5 {
+  font-size: 14px;
+}
+.contenitoreRateUs button {
+  width: 300px;
+  height: 70px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 31px #0ae3eb4d;
+  border: 3px solid white;
+  opacity: 0.5;
+}
+h6 {
+  width: 284px;
+}
+.risultatiCorretti {
+  position: relative;
+  top: 83px;
+}
+.risultatiSbagliati {
+  position: relative;
+  top: 83px;
+}
+.risultatiCorretti h6 {
+  text-align: left;
+}
+.risultatiSbagliati h6 {
+  text-align: right;
+  line-height: 1em;
+}
+h6 .correct {
+  font-size: 65px;
+  line-height: 50px;
+}
+h6 .percentuale {
+  font-size: 65px;
+  line-height: 80px;
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+}
+h6 .totSuTot {
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "Inter", sans-serif;
+  text-transform: lowercase;
+}
+.contenitoreRateUs {
+  display: flex;
+  justify-content: center;
+  margin-top: 235px;
+}
+.container-list {
+  margin-block: 2em;
+  display: inline-block;
+  padding-block: 1em;
+  line-height: 2em;
+  text-align: left;
+  font-size: 28px;
+  margin: 0px 100px;
+}
+#list {
+  list-style-type: decimal;
+  padding: 2em;
+  list-style-position: inside;
+}
+.answer {
+  margin-block: 0.4em;
+}
+.bottoneRateUs:hover {
+  opacity: 1;
+}
+#list li {
+  border: 1px solid white;
+  padding: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0px 0px 20px 3px #808080;
+  border-radius: 30px;
+}
+/*       ---------------------------------------------------------    */
+#fix {
+  display: block;
+  margin-top: 50px;
+}
+#fix p {
+  box-shadow: 0px 0px 20px 3px #808080;
+  border-radius: 30px;
+  padding: 30px;
+  margin: 50px 780px 0px;
+  height: 150px;
+}
+#abba {
+  display: inline-flex;
+  margin-top: 50px;
+  font-family: "Outfit", sans-serif;
+}
+#totGiuste {
+  margin-right: 250px;
+  box-shadow: 0px 0px 20px 3px #808080;
+  border-radius: 30px;
+  width: 370px;
+  height: 140px;
+  padding: 15px;
+}
+#totMedie {
+  box-shadow: 0px 0px 20px 3px #808080;
+  border-radius: 30px;
+  width: 370px;
+  height: 140px;
+  padding: 15px;
+}
+#totSbagliate {
+  margin-left: 250px;
+  box-shadow: 0px 0px 20px 3px #808080;
+  border-radius: 30px;
+  width: 370px;
+  height: 140px;
+  padding: 15px;
+}
+
+.correctttttttttt {
+  font-size: 45px;
+  font-weight: bold;
+}
+.totColoratoooooooo {
+  color: #d20094;
+}
+.jdhbcjh {
+  font-size: 32px;
+}
+.bcjh {
+  font-size: 27px;
+  font-weight: bold;
+}

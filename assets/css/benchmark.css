@@ -1,0 +1,104 @@
+/* inizio modifiche  */
+main {
+  text-align: center;
+  margin-block: -8em;
+}
+.contatoreQuestion {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.contatoreQuestion p {
+  text-transform: uppercase;
+  margin-top: 22px;
+}
+.coloreContatore {
+  color: #d20094;
+}
+.Question h1 {
+  font-size: 63px;
+}
+.contenitoreRisposte {
+  margin: 60px 140px 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contenitoreRisposte button {
+  /* background: linear-gradient(to right, #3a0a4b, #59226d); */
+  background-color: #3a0a4b;
+  box-shadow: 0px -4px 5px 0px white;
+  border: none;
+  height: 125px;
+  width: 561px;
+  margin: 20px 50px;
+  border-radius: 150px;
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
+.contenitoreRisposte button:hover {
+  cursor: pointer;
+  background-color: #9625c0;
+}
+.circle1 {
+  position: relative;
+}
+.timerText1 {
+  position: absolute;
+  top: 33%;
+  left: 3.5em;
+}
+.external-circle {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  mask-image: radial-gradient(circle at center, transparent 60px, white 61px);
+}
+.containerTimer {
+  margin-left: 90%;
+}
+.progress-textP {
+  font-size: 0.5em;
+}
+.progress-textH4 {
+  font-size: 2em;
+}
+.button-ans {
+  height: 100px;
+  width: 500px;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 2em;
+  margin-bottom: 2em;
+}
+footer {
+  text-align: center;
+  display: inline-flex;
+}
+footer button {
+  text-align: center;
+  height: 100px;
+  width: 455px;
+}
+#show-result-button {
+  font-size: 32px;
+  background-color: #00ffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 0 0 60px #0ae3eb;
+  border: 0;
+  cursor: pointer;
+}
+.green {
+  background: linear-gradient(to right, #2c990b, #033712);
+}
+.red {
+  background: linear-gradient(to right, #f32525, #570101);
+}
+
+.stilePerUtimaDomanda {
+  display: none;
+}
+.stilePerUtimaDomandaBottone {
+  margin-top: 390px;
+}

@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result page</title>
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/StyleResult.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="/assets/img/epicode_logo.png" alt="logo" />
+      </div>
+    </header>
+    <main>
+      <div class="resultTitolo">
+        <h1>Results</h1>
+        <h2>The summary of your answers:</h2>
+      </div>
+      <div class="contenutoTuttoIlResult">
+        <div class="risultatiCorretti">
+          <h6>
+            <span class="correct"></span>
+            <span class="percentuale"></span>
+            <span class="totSuTot"></span>
+          </h6>
+        </div>
+        <div class="testoInternoGrafico">
+          <h3 id="passed">Congratulation!</h3>
+          <h4 id="passed2">You passed the exam.</h4>
+          <h5>
+            We'll send you the certificatein <br />
+            few minutes.<br />
+            check your email (including<br />
+            promotions/ spam folder)
+          </h5>
+          <div id="grafic"></div>
+        </div>
+
+        <div class="risultatiSbagliati">
+          <h6>
+            <span class="correct"></span>
+            <span class="percentuale"></span>
+            <span class="totSuTot"></span>
+          </h6>
+        </div>
+      </div>
+    </main>
+    <div class="contenitoreRateUs">
+      <button class="bottoneRateUs">RATE US</button>
+    </div>
+    <div id="fix"></div>
+    <div id="abba" class="abbax"></div>
+    <div class="container-list">
+      <ul id="list"></ul>
+    </div>
+    <script src="/java/result.js"></script>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+body {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+header,
+main {
+  margin-block: 4em;
+  margin-inline: 8em;
+}
+header div img {
+  width: 15%;
+  height: auto;
+  display: block;
+}
+
+/*FEEDBACK PAGE */
+
+.feedbackText h2 {
+  color: white;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Outfit", sans-serif;
+}
+.feedbackText p {
+  color: white;
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 2em;
+  width: 700px;
+  margin-inline: auto;
+  line-height: 1.2em;
+}
+.stars {
+  text-align: center;
+}
+.stars img {
+  margin: 0.1rem;
+  margin-top: 2rem;
+  opacity: 0.2;
+  cursor: pointer;
+}
+.stars img.light {
+  opacity: 1;
+}
+.commentArea p {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.5rem;
+}
+.feedbackArea {
+  text-align: center;
+}
+#formFeedbackText {
+  margin-top: 40px;
+  height: 30px;
+  width: 100vh;
+  border: none;
+  border-bottom: 2px solid #c2128d;
+  color: white;
+  background-color: transparent;
+}
+.infoButton {
+  text-align: center;
+  margin-top: 5em;
+}
+.infoButton button:hover {
+  background-color: #79ececfc;
+}
+.infoButton button {
+  width: 200px;
+  height: 60px;
+  background-color: #00ffff;
+  border: none;
+  font-weight: 700;
+  box-shadow: 1px 0px 15px 4px#0ae3eb;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+#feedback-message {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2em;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+}
+
+#moreInfoButton {
+  width: 200px;
+  height: 60px;
+  background-color: #00ffff;
+  border: none;
+  font-weight: 900;
+  box-shadow: 1px 0px 15px 4px #0ae3eb;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+#imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Page</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/stylefeedback.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="./assets/img/epicode_logo.png" alt="logo" />
+      </div>
+    </header>
+    <main>
+      <section class="feedbackText">
+        <h2>Tell us how it's going</h2>
+        <p>
+          From 0 to 10, how likely are you to recommend EPICODE to a friend or a
+          colleague?
+        </p>
+      </section>
+      <section>
+        <div class="stars">
+          <img src="./assets/img/star.svg" alt="stars" />
+          <img src="./assets/img/star.svg" alt="stars" />
+          <img src="./assets/img/star.svg" alt="stars" />
+          <img src="./assets/img/star.svg" alt="stars" />
+          <img src="./assets/img/star.svg" alt="stars" />
+          <img src="./assets/img/star.svg" alt="stars" />
+          <img src="./assets/img/star.svg" alt="stars" />
+          <img src="./assets/img/star.svg" alt="stars" />
+          <img src="./assets/img/star.svg" alt="stars" />
+          <img src="./assets/img/star.svg" alt="stars" />
+        </div>
+        <div id="feedback-message"></div>
+      </section>
+      <section class="commentArea">
+        <p>Leave us an open feedback about your experience so far</p>
+        <div class="feedbackArea">
+          <form>
+            <input
+              type="text"
+              name="comment-area"
+              id="formFeedbackText"
+              placeholder="Write your feedback here..."
+            />
+          </form>
+        </div>
+      </section>
+      <div id="submitButton" class="infoButton">
+        <button>Submit</button>
+      </div>
+      <div id="imageContainer"></div>
+      <div id="moreInfoContainer" class="infoButton" style="display: none">
+        <button id="moreInfoButton">More Info</button>
+      </div>
+    </main>
+    <script src="./java/feedback.js"></script>
+  </body>
+</html>
